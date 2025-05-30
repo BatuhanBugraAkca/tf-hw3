@@ -75,7 +75,7 @@ data "aws_ami" "amazon_linux" {
 }
 
 data "aws_key_pair" "my_key" {
-  key_name = "bba" # varsa değiştirebilirim
+  key_name = "bba" 
 }
 
 resource "aws_instance" "web_a" {
